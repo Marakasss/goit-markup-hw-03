@@ -1,3 +1,37 @@
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -8,9 +42,9 @@ body {
     
 }
 
-ul {
-    list-style-type: none;
-}
+
+
+
 
 .link {
     font-size: 12px;
@@ -34,6 +68,7 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    padding-right: 76px;
     
 }
 
@@ -65,6 +100,7 @@ ul {
 
 .contacts {
     font-style: normal;
+    
 }
 
 .contacts .link {
@@ -76,6 +112,26 @@ ul {
 
 }
 
+.navbar-container {
+    display: flex;
+    padding: 24px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts-item {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar {
+    display: flex;
+}
 
 /*--------------------------- Main tittle --------------------------*/
 
@@ -91,6 +147,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff; 
+    
 }
 
 .order-button {
@@ -103,7 +160,20 @@ ul {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 48px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: auto;
+    height: auto;
 
+}
+
+.header-container {
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .order-button:hover {
@@ -190,3 +260,6 @@ ul {
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
+
+
+
