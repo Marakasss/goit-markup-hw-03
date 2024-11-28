@@ -236,6 +236,7 @@ body {
 .portfolio-tittle {
     padding-top: 32px;
     
+    
 }
 
 
@@ -292,7 +293,21 @@ body {
 .feature-descr {
     padding-top: 8px;
     letter-spacing: 0.02em;
-}   
+}
+
+.portfolio-descr {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-left: 16px;
+}
+
+.portfolio-tittle {
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-left: 16px;
+}
+
 
 
 /*--------------------------- Footer --------------------------*/
