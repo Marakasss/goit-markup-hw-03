@@ -1,2 +1,3 @@
 # goit-markup-hw-01
-Homework1
+
+npx csso ./css/styles.css --output optimized.css
